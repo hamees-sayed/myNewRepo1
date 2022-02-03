@@ -57,7 +57,7 @@ while no_of_chances == 5:
 
     if your_points > computer_points:
         print("\nYou are the Winner!")
-    el your_points < computer_points:
+    elif your_points < computer_points:
         print("\nYou are the Loser!")
     else:
         print("\nIt's a Tie!")
